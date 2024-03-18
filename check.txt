@@ -1,3 +1,13 @@
 just checking
 
 edited one
+
+create repo
+
+go to terminal
+
+git init
+git remote add origin link
+git add .
+git commit -m "something"
+git push origin main
