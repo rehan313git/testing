@@ -1,7 +1,3 @@
-just checking
-
-edited one
-
 create repo
 
 go to terminal
@@ -11,3 +7,10 @@ git remote add origin link
 git add .
 git commit -m "something"
 git push origin main
+
+git pull origin main
+
+git status
+
+git log
+
