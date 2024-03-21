@@ -2,7 +2,18 @@ create repo
 
 go to terminal
 
+
 git init
+
+        Change your local repository default branch to main:
+
+        cd /path/to/local/repo
+        git branch -m master main
+        git fetch
+        git rebase origin/main
+        git push --force -u origin main
+
+
 git remote add origin link
 git add .
 git commit -m "something"
